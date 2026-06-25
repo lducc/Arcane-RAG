@@ -1,1 +1,27 @@
-/.venv
+.venv/
+__pycache__/
+*.pyc
+.env
+.agents/
+docs/
+logs/
+
+# Data and indexes (too large for git)
+data/
+*.faiss
+*.pkl
+*.db
+
+# Competition data
+R2AIStage1DATA*.json
+submission.zip
+results.json
+
+# Logs
+*.log
+
+# PDFs (mentor materials)
+*.pdf
+
+# Notebooks (Colab/Kaggle)
+notebooks/
